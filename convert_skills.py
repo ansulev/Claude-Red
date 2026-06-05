@@ -8,7 +8,7 @@ import re
 import zipfile
 from pathlib import Path
 
-INPUT_DIR = Path("skills")
+INPUT_DIR = Path("Skills")
 OUTPUT_DIR = Path("skills-converted")
 ZIP_DIR = Path("skills-zip")
 
