@@ -17,9 +17,9 @@ git push origin main
 ```
 
 Conflicts only happen if upstream modifies `convert_skills.py`.
-Your changes live in those 4 commits on top — they never touch `Skills/`.
+This fork's changes live in those 4 commits on top — they never touch `Skills/`.
 
-## Your changes vs upstream
+## This fork's changes vs upstream
 
 | File               | What changed                                      |
 |--------------------|---------------------------------------------------|
@@ -32,7 +32,7 @@ Not submitted upstream — unclear if Spanish was intentional on their end.
 ## Day-to-day
 
 ```bash
-# Push your changes
+# Push this fork's changes
 git push origin main
 
 # Check what upstream has that you don't
