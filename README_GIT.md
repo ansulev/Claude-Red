@@ -4,7 +4,7 @@
 
 | Remote   | URL                                        | Purpose              |
 |----------|--------------------------------------------|----------------------|
-| origin   | github.com/ansulev/Claude-Red              | Your fork — push here |
+| origin   | github.com/ansulev/Claude-Red              | This fork — push here |
 | upstream | github.com/SnailSploit/Claude-Red          | Source — pull only   |
 
 ## Sync upstream → your fork
