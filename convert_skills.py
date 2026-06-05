@@ -209,13 +209,10 @@ def main():
         print("   • Cada ZIP contiene: [folder-name]/SKILL.md")
         print("   • El 'name' en YAML = nombre de la carpeta dentro del ZIP")
     else:
-        print(f"\n❌ No se pudo convertir ninguna skill. Ejecuta con --debug para diagnosticar.")
+        print("\n❌ No se pudo convertir ninguna skill. Ejecuta con --debug para diagnosticar.")
 
 if __name__ == '__main__':
-    # Requerimiento: PyYAML
-    try:
-        import yaml
-    except ImportError:
+    if not __import__('importlib').util.find_spec('yaml'):
         print("⚠️  Instalando dependencia PyYAML...")
         import subprocess
         subprocess.check_call(['pip', 'install', 'pyyaml'])
