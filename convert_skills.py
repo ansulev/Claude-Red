@@ -205,9 +205,9 @@ def main():
         print(f"\n✨ {ok}/{len(files)} skills convertidas exitosamente.")
         print(f"📁 Skills: {out_dir.resolve()}")
         print(f"🗜️  ZIPs: {zip_dir.resolve()}")
-        print(f"\n📋 Para subir a Claude Console:")
-        print(f"   • Cada ZIP contiene: [folder-name]/SKILL.md")
-        print(f"   • El 'name' en YAML = nombre de la carpeta dentro del ZIP")
+        print("\n📋 Para subir a Claude Console:")
+        print("   • Cada ZIP contiene: [folder-name]/SKILL.md")
+        print("   • El 'name' en YAML = nombre de la carpeta dentro del ZIP")
     else:
         print(f"\n❌ No se pudo convertir ninguna skill. Ejecuta con --debug para diagnosticar.")
 
