@@ -7,7 +7,7 @@
 | origin   | github.com/ansulev/Claude-Red              | This fork — push here |
 | upstream | github.com/SnailSploit/Claude-Red          | Source — pull only   |
 
-## Sync upstream → your fork
+## Sync upstream → this fork
 
 ```bash
 git fetch upstream
